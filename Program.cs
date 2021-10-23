@@ -15,7 +15,14 @@ namespace TIC_TAC_TOE
 
 
             //UC2
-            TicTacToeGame2.ChooseLetter();
+            //TicTacToeGame2.ChooseLetter();
+
+            //UC3
+            TicTacToeGame3 obj2 = new TicTacToeGame3();
+            obj2.CreateBoard();
+            obj2.ChooseLetter();
+            obj2.ShowBoard();
+
 
         }
     }
