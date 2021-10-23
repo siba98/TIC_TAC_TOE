@@ -6,9 +6,12 @@ namespace TIC_TAC_TOE
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("***********Welcome to TIC TAC TOE ****************");
+            Console.WriteLine("***********Welcome to TIC TAC TOE ****************\n");
 
+            //creating object of the class
             TicTacToeGame obj = new TicTacToeGame();
+
+            //calling method with the obj variable
             obj.CreateBoard();
         }
     }
